@@ -1,0 +1,2863 @@
+{
+    "props": {
+        "isServer": true,
+        "initialState": {
+            "nabolag": {
+                "error": false,
+                "data": {
+                    "productCode": "bolig",
+                    "general": {
+                        "factCards": [
+                            {
+                                "type": "PUBLIC_TRANSPORT",
+                                "data": {
+                                    "title": "Kort gangavstand til offentlig transport",
+                                    "pois": [
+                                        {
+                                            "name": "Holtveien",
+                                            "poiId": "5c5c44bfeda2c952885ff0be",
+                                            "poiTypeName": "Buss",
+                                            "poiTypeId": 240,
+                                            "distanceType": "walk",
+                                            "distance": "4 min",
+                                            "measureValue": 254,
+                                            "measureUnit": "s"
+                                        },
+                                        {
+                                            "name": "Olavsgaard",
+                                            "poiId": "5c6ec7eebaee4c1edcae5a7a",
+                                            "poiTypeName": "Knutepunkt",
+                                            "poiTypeId": 235,
+                                            "distanceType": "walk",
+                                            "distance": "22 min",
+                                            "measureValue": 1333,
+                                            "measureUnit": "s"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "AGE",
+                                "data": {
+                                    "title": "Mange unge voksne i nabolaget",
+                                    "stats": [
+                                        {
+                                            "group": "0-5",
+                                            "percent": {
+                                                "neighborhood": 10.646,
+                                                "city": 7.205
+                                            }
+                                        },
+                                        {
+                                            "group": "6-12",
+                                            "percent": {
+                                                "neighborhood": 10.049,
+                                                "city": 9.233
+                                            }
+                                        },
+                                        {
+                                            "group": "13-15",
+                                            "percent": {
+                                                "neighborhood": 2.444,
+                                                "city": 4.086
+                                            }
+                                        },
+                                        {
+                                            "group": "16-18",
+                                            "percent": {
+                                                "neighborhood": 2.662,
+                                                "city": 4.137
+                                            }
+                                        },
+                                        {
+                                            "group": "19-23",
+                                            "percent": {
+                                                "neighborhood": 5.812,
+                                                "city": 6.439
+                                            }
+                                        },
+                                        {
+                                            "group": "24-34",
+                                            "percent": {
+                                                "neighborhood": 22.651,
+                                                "city": 14.34
+                                            }
+                                        },
+                                        {
+                                            "group": "35-44",
+                                            "percent": {
+                                                "neighborhood": 18.523,
+                                                "city": 14.129
+                                            }
+                                        },
+                                        {
+                                            "group": "45-54",
+                                            "percent": {
+                                                "neighborhood": 12.548,
+                                                "city": 16.066
+                                            }
+                                        },
+                                        {
+                                            "group": "55-64",
+                                            "percent": {
+                                                "neighborhood": 8.419,
+                                                "city": 10.474
+                                            }
+                                        },
+                                        {
+                                            "group": "65-74",
+                                            "percent": {
+                                                "neighborhood": 5.215,
+                                                "city": 7.923
+                                            }
+                                        },
+                                        {
+                                            "group": "75-84",
+                                            "percent": {
+                                                "neighborhood": 0.923,
+                                                "city": 4.48
+                                            }
+                                        },
+                                        {
+                                            "group": "85+",
+                                            "percent": {
+                                                "neighborhood": 0.109,
+                                                "city": 1.487
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "SHOPPING",
+                                "data": {
+                                    "title": "Gangavstand til butikk",
+                                    "pois": [
+                                        {
+                                            "name": "Rema 1000 Holt Vestvollen",
+                                            "poiId": "6098b7011e606000129d7978",
+                                            "poiTypeName": "Dagligvare",
+                                            "poiTypeId": 1100,
+                                            "distanceType": "walk",
+                                            "distance": "16 min",
+                                            "measureValue": 949,
+                                            "measureUnit": "s"
+                                        },
+                                        {
+                                            "name": "Kiwi Holt Vestvollen",
+                                            "poiId": "58c72f76b1a1eaff7c96ecde",
+                                            "poiTypeName": "Dagligvare",
+                                            "poiTypeId": 1100,
+                                            "distanceType": "walk",
+                                            "distance": "17 min",
+                                            "measureValue": 1049,
+                                            "measureUnit": "s"
+                                        },
+                                        {
+                                            "name": "Lillestr�m Torv",
+                                            "poiId": "58c7303cb1a1eaff7c98059f",
+                                            "poiTypeName": "Kj�pesenter",
+                                            "poiTypeId": 700,
+                                            "distanceType": "drive",
+                                            "distance": "6 min",
+                                            "measureValue": 363,
+                                            "measureUnit": "s"
+                                        },
+                                        {
+                                            "name": "Skjetten N�rsenter",
+                                            "poiId": "58c73041b1a1eaff7c980b3c",
+                                            "poiTypeName": "Kj�pesenter",
+                                            "poiTypeId": 700,
+                                            "distanceType": "drive",
+                                            "distance": "7 min",
+                                            "measureValue": 417,
+                                            "measureUnit": "s"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "UNIVERSITY",
+                                "data": {
+                                    "title": "Gangavstand til universitet/h�yskole",
+                                    "pois": [
+                                        {
+                                            "name": "OsloMet - avd. Kjeller",
+                                            "poiId": "5a5c721389b00c511d4c7676",
+                                            "poiTypeName": "H�yskole/Universitet",
+                                            "poiTypeId": 550,
+                                            "distanceType": "walk",
+                                            "distance": "21 min",
+                                            "measureValue": 1260,
+                                            "measureUnit": "s"
+                                        },
+                                        {
+                                            "name": "Handelsh�yskolen BI",
+                                            "poiId": "5a4f3c6eaa747e5854f7d0c8",
+                                            "poiTypeName": "H�yskole/Universitet",
+                                            "poiTypeId": 550,
+                                            "distanceType": "drive",
+                                            "distance": "18 min",
+                                            "measureValue": 1066,
+                                            "measureUnit": "s"
+                                        },
+                                        {
+                                            "name": "Kunsth�gskolen i Oslo",
+                                            "poiId": "5a4e17cb305bc58a54a5ab19",
+                                            "poiTypeName": "H�yskole/Universitet",
+                                            "poiTypeId": 550,
+                                            "distanceType": "drive",
+                                            "distance": "21 min",
+                                            "measureValue": 1263,
+                                            "measureUnit": "s"
+                                        },
+                                        {
+                                            "name": "Universitetet i Oslo",
+                                            "poiId": "5a4e18f127c162525419cbc5",
+                                            "poiTypeName": "H�yskole/Universitet",
+                                            "poiTypeId": 550,
+                                            "distanceType": "drive",
+                                            "distance": "22 min",
+                                            "measureValue": 1305,
+                                            "measureUnit": "s"
+                                        },
+                                        {
+                                            "name": "Arkitektur- og designh�gskolen i Oslo",
+                                            "poiId": "5a4f34faaa747e5854f7d0c5",
+                                            "poiTypeName": "H�yskole/Universitet",
+                                            "poiTypeId": 550,
+                                            "distanceType": "drive",
+                                            "distance": "22 min",
+                                            "measureValue": 1322,
+                                            "measureUnit": "s"
+                                        },
+                                        {
+                                            "name": "Bj�rknes H�yskole",
+                                            "poiId": "5a718e4eb5b428ca70a327f0",
+                                            "poiTypeName": "H�yskole/Universitet",
+                                            "poiTypeId": 550,
+                                            "distanceType": "drive",
+                                            "distance": "23 min",
+                                            "measureValue": 1400,
+                                            "measureUnit": "s"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "SPORTS",
+                                "data": {
+                                    "title": "Gangavstand til idrettsanlegg",
+                                    "pois": [
+                                        {
+                                            "name": "Skedsmovollen skole",
+                                            "poiId": "5f4fb3119481222fac0f2b9f",
+                                            "poiTypeName": "Idrettsanlegg",
+                                            "poiTypeId": 310,
+                                            "distanceType": "walk",
+                                            "distance": "15 min",
+                                            "measureValue": 909,
+                                            "measureUnit": "s"
+                                        },
+                                        {
+                                            "name": "Sollia terrasse - ball�kke",
+                                            "poiId": "5f4fb2f19481222fac0ee1a3",
+                                            "poiTypeName": "Idrettsanlegg",
+                                            "poiTypeId": 310,
+                                            "distanceType": "walk",
+                                            "distance": "15 min",
+                                            "measureValue": 920,
+                                            "measureUnit": "s"
+                                        },
+                                        {
+                                            "name": "Lillestr�m Arena",
+                                            "poiId": "58c72f7eb1a1eaff7c96fad7",
+                                            "poiTypeName": "Treningssenter",
+                                            "poiTypeId": 330,
+                                            "distanceType": "drive",
+                                            "distance": "4 min",
+                                            "measureValue": 253,
+                                            "measureUnit": "s"
+                                        },
+                                        {
+                                            "name": "EVO Lillestr�m",
+                                            "poiId": "58c72f7fb1a1eaff7c96fd68",
+                                            "poiTypeName": "Treningssenter",
+                                            "poiTypeId": 330,
+                                            "distanceType": "drive",
+                                            "distance": "7 min",
+                                            "measureValue": 403,
+                                            "measureUnit": "s"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "ratingCards": [
+                            {
+                                "type": "RECOMMENDED_FOR",
+                                "data": {
+                                    "title": "Spesielt anbefalt for",
+                                    "values": [
+                                        "Familier med barn",
+                                        "Etablerere",
+                                        "Studenter"
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "RATING",
+                                "data": {
+                                    "title": "Nabolaget oppleves som veldig trygt",
+                                    "type": "SAFETY",
+                                    "completedratings": 52,
+                                    "score": {
+                                        "text": "Veldig trygt",
+                                        "neighborhood": 84,
+                                        "city": 86,
+                                        "cityText": "Veldig trygt"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "RATING",
+                                "data": {
+                                    "title": "Meget godt kollektivtilbud",
+                                    "type": "RATING_PUBLIC_TRANSPORT",
+                                    "completedratings": 52,
+                                    "score": {
+                                        "text": "Veldig bra",
+                                        "neighborhood": 86,
+                                        "city": 78,
+                                        "cityText": "Veldig bra"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "RATING",
+                                "data": {
+                                    "title": "Gode turmuligheter",
+                                    "type": "HIKING",
+                                    "completedratings": 52,
+                                    "score": {
+                                        "text": "N�rhet til skog og mark",
+                                        "neighborhood": 73,
+                                        "city": 84,
+                                        "cityText": "N�rhet til skog og mark"
+                                    }
+                                }
+                            }
+                        ],
+                        "infoText": null,
+                        "features": {
+                            "showCompareBox": true,
+                            "showSchibstedAccount": true,
+                            "showCardListArrowsOnMobile": false,
+                            "showRouteCalculation": true
+                        },
+                        "mediaCards": null,
+                        "routeCalculation": {
+                            "i18n": "normal",
+                            "prefix": "normal"
+                        },
+                        "map": {
+                            "poiTypeGroup": 1,
+                            "showSkiTracks": false
+                        },
+                        "stats": {
+                            "winner": "youngAdult",
+                            "scores": {
+                                "family": {
+                                    "score": 0,
+                                    "subscores": [
+                                        0
+                                    ]
+                                },
+                                "youngAdult": {
+                                    "score": 0.7061900362313712,
+                                    "subscores": [
+                                        0.7608281419690917,
+                                        1,
+                                        0.5639320029563933,
+                                        0.5
+                                    ]
+                                },
+                                "elderlyScore": {
+                                    "score": 0.1879773343187978,
+                                    "subscores": [
+                                        0,
+                                        0.5639320029563933,
+                                        0
+                                    ]
+                                },
+                                "other": {
+                                    "score": 0.7,
+                                    "subscores": null
+                                }
+                            },
+                            "finn": {
+                                "construction_year": 2020,
+                                "urn:finn:ad:type": "realestate-homes",
+                                "urn:finn:search:type": "realestate-homes",
+                                "bedrooms": 1,
+                                "propertyType": "apartment",
+                                "childrenFriendly": true
+                            }
+                        },
+                        "info": {
+                            "header": "Eikelundveien 1, 2007 Kjeller",
+                            "subHeader": [],
+                            "matrikkel": "33/11/0/14",
+                            "address": "Eikelundveien 1",
+                            "zip": "2007",
+                            "city": "Kjeller",
+                            "municipality": "Lillestr�m",
+                            "census": "Kjeller 9",
+                            "sunCurves": false,
+                            "location": {
+                                "lat": 59.97741641718,
+                                "long": 11.025618391745,
+                                "mapBounds": {
+                                    "sw": {
+                                        "lat": 59.9689933714632,
+                                        "lng": 11.008783791827762
+                                    },
+                                    "ne": {
+                                        "lat": 59.98583946289681,
+                                        "lng": 11.04245299166224
+                                    }
+                                }
+                            },
+                            "finnkode": 284502441,
+                            "orderLineId": 3040362,
+                            "description": "",
+                            "neighborhood": {
+                                "name": "Kjeller",
+                                "city": "Skedsmokorset"
+                            }
+                        },
+                        "categories": [
+                            {
+                                "id": "people",
+                                "name": "Menneskene"
+                            },
+                            {
+                                "id": "transport",
+                                "name": "Transport"
+                            },
+                            {
+                                "id": "environment",
+                                "name": "Bomilj�"
+                            },
+                            {
+                                "id": "leisure",
+                                "name": "Fritid"
+                            },
+                            {
+                                "id": "shopping",
+                                "name": "Handel"
+                            },
+                            {
+                                "id": "family",
+                                "name": "Familie"
+                            }
+                        ]
+                    },
+                    "people": [
+                        {
+                            "type": "AGE_DISTRIBUTION",
+                            "values": [
+                                {
+                                    "group": "0-12",
+                                    "percent": {
+                                        "neighborhood": 20.695,
+                                        "city": 16.438
+                                    }
+                                },
+                                {
+                                    "group": "13-18",
+                                    "percent": {
+                                        "neighborhood": 5.106,
+                                        "city": 8.223
+                                    }
+                                },
+                                {
+                                    "group": "19-34",
+                                    "percent": {
+                                        "neighborhood": 28.463,
+                                        "city": 20.779
+                                    }
+                                },
+                                {
+                                    "group": "35-64",
+                                    "percent": {
+                                        "neighborhood": 39.489,
+                                        "city": 40.669
+                                    }
+                                },
+                                {
+                                    "group": "65+",
+                                    "percent": {
+                                        "neighborhood": 6.247,
+                                        "city": 13.89
+                                    }
+                                }
+                            ],
+                            "stats": [
+                                {
+                                    "group": "People",
+                                    "total": {
+                                        "neighborhood": 1830,
+                                        "city": 37308
+                                    }
+                                },
+                                {
+                                    "group": "Households",
+                                    "total": {
+                                        "neighborhood": 451,
+                                        "city": 15748
+                                    }
+                                }
+                            ],
+                            "id": "age_distribution"
+                        },
+                        {
+                            "type": "CIVIL_STATUS",
+                            "values": [
+                                {
+                                    "group": "NotMarried",
+                                    "percent": {
+                                        "neighborhood": 59.529,
+                                        "city": 51.588
+                                    }
+                                },
+                                {
+                                    "group": "Married",
+                                    "percent": {
+                                        "neighborhood": 29.901,
+                                        "city": 35.006
+                                    }
+                                },
+                                {
+                                    "group": "Separated",
+                                    "percent": {
+                                        "neighborhood": 9.091,
+                                        "city": 9.923
+                                    }
+                                },
+                                {
+                                    "group": "Widow",
+                                    "percent": {
+                                        "neighborhood": 1.479,
+                                        "city": 3.484
+                                    }
+                                }
+                            ],
+                            "id": "civil_status"
+                        },
+                        {
+                            "type": "EDUCATION",
+                            "values": [
+                                {
+                                    "group": "AllmenneFag",
+                                    "percent": {
+                                        "neighborhood": 31.139,
+                                        "city": 37.937
+                                    }
+                                },
+                                {
+                                    "group": "HelseSosial",
+                                    "percent": {
+                                        "neighborhood": 11.536,
+                                        "city": 11.508
+                                    }
+                                },
+                                {
+                                    "group": "Okonomiske",
+                                    "percent": {
+                                        "neighborhood": 12.81,
+                                        "city": 11.464
+                                    }
+                                },
+                                {
+                                    "group": "NatVit",
+                                    "percent": {
+                                        "neighborhood": 19.25,
+                                        "city": 16.994
+                                    }
+                                },
+                                {
+                                    "group": "HumanEstetikk",
+                                    "percent": {
+                                        "neighborhood": 4.246,
+                                        "city": 3.803
+                                    }
+                                },
+                                {
+                                    "group": "Samfunn",
+                                    "percent": {
+                                        "neighborhood": 2.76,
+                                        "city": 2.431
+                                    }
+                                },
+                                {
+                                    "group": "Laerer",
+                                    "percent": {
+                                        "neighborhood": 4.034,
+                                        "city": 4.252
+                                    }
+                                },
+                                {
+                                    "group": "Primaer",
+                                    "percent": {
+                                        "neighborhood": 0.637,
+                                        "city": 0.513
+                                    }
+                                },
+                                {
+                                    "group": "Samferdsel",
+                                    "percent": {
+                                        "neighborhood": 4.388,
+                                        "city": 3.345
+                                    }
+                                },
+                                {
+                                    "group": "Andre",
+                                    "percent": {
+                                        "neighborhood": 9.2,
+                                        "city": 7.752
+                                    }
+                                }
+                            ],
+                            "id": "education"
+                        },
+                        {
+                            "type": "INCOME",
+                            "values": [
+                                {
+                                    "group": "0-200000",
+                                    "percent": {
+                                        "neighborhood": 17.824,
+                                        "city": 17.517
+                                    }
+                                },
+                                {
+                                    "group": "200000-400000",
+                                    "percent": {
+                                        "neighborhood": 19.325,
+                                        "city": 24.745
+                                    }
+                                },
+                                {
+                                    "group": "400000-600000",
+                                    "percent": {
+                                        "neighborhood": 30.3,
+                                        "city": 26.762
+                                    }
+                                },
+                                {
+                                    "group": "600000-800000",
+                                    "percent": {
+                                        "neighborhood": 19.418,
+                                        "city": 18.714
+                                    }
+                                },
+                                {
+                                    "group": "800000-1000000",
+                                    "percent": {
+                                        "neighborhood": 7.692,
+                                        "city": 6.831
+                                    }
+                                },
+                                {
+                                    "group": "1000000+",
+                                    "percent": {
+                                        "neighborhood": 5.441,
+                                        "city": 5.43
+                                    }
+                                }
+                            ],
+                            "id": "income"
+                        },
+                        {
+                            "type": "POIS",
+                            "id": "higheducation",
+                            "pois": [
+                                {
+                                    "poitypeId": 551,
+                                    "poiId": "5a5c721389b00c511d4c7676",
+                                    "name": "OsloMet - avd. Kjeller",
+                                    "coordinates": {
+                                        "lat": 59.97643,
+                                        "long": 11.04416
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 1,
+                                        "drive": 1.8,
+                                        "walk": 1.7,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 1260,
+                                        "drive": 186,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 1260,
+                                    "measureUnit": "s",
+                                    "measureText": "21 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 550,
+                                    "poiId": "5a4f3c6eaa747e5854f7d0c8",
+                                    "name": "Handelsh�yskolen BI",
+                                    "coordinates": {
+                                        "lat": 59.9484,
+                                        "long": 10.76852
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 14.7,
+                                        "drive": 20.4,
+                                        "walk": null,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "drive": 1066,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 1066,
+                                    "measureUnit": "s",
+                                    "measureText": "18 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 550,
+                                    "poiId": "5a4e17cb305bc58a54a5ab19",
+                                    "name": "Kunsth�gskolen i Oslo",
+                                    "coordinates": {
+                                        "lat": 59.92534,
+                                        "long": 10.75476
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 16.2,
+                                        "drive": 20.2,
+                                        "walk": null,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "drive": 1263,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 1263,
+                                    "measureUnit": "s",
+                                    "measureText": "21 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 550,
+                                    "poiId": "5a4e18f127c162525419cbc5",
+                                    "name": "Universitetet i Oslo",
+                                    "coordinates": {
+                                        "lat": 59.94013,
+                                        "long": 10.72028
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 17.5,
+                                        "drive": 23.8,
+                                        "walk": null,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "drive": 1305,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 1305,
+                                    "measureUnit": "s",
+                                    "measureText": "22 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 550,
+                                    "poiId": "5a4f34faaa747e5854f7d0c5",
+                                    "name": "Arkitektur- og designh�gskolen i Oslo",
+                                    "coordinates": {
+                                        "lat": 59.92443,
+                                        "long": 10.75091
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 16.4,
+                                        "drive": 20.7,
+                                        "walk": null,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "drive": 1322,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 1322,
+                                    "measureUnit": "s",
+                                    "measureText": "22 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 550,
+                                    "poiId": "5a718e4eb5b428ca70a327f0",
+                                    "name": "Bj�rknes H�yskole",
+                                    "coordinates": {
+                                        "lat": 59.93163,
+                                        "long": 10.74562
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 16.4,
+                                        "drive": 21.1,
+                                        "walk": null,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "drive": 1400,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 1400,
+                                    "measureUnit": "s",
+                                    "measureText": "23 min",
+                                    "sortPriority": 2
+                                }
+                            ]
+                        }
+                    ],
+                    "transport": [
+                        {
+                            "type": "POIS",
+                            "id": "transport",
+                            "pois": [
+                                {
+                                    "poitypeId": 235,
+                                    "poiId": "5c6ec7eebaee4c1edcae5a7a",
+                                    "name": "Olavsgaard",
+                                    "coordinates": {
+                                        "lat": 59.97916,
+                                        "long": 11.00151
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 1.4,
+                                        "drive": 1.8,
+                                        "walk": 1.7,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 1333,
+                                        "drive": 170,
+                                        "unit": "s"
+                                    },
+                                    "transportTypes": [
+                                        240
+                                    ],
+                                    "amount": "1965",
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 1333,
+                                    "measureUnit": "s",
+                                    "measureText": "22 min",
+                                    "sortPriority": 2,
+                                    "description": "Buss"
+                                },
+                                {
+                                    "poitypeId": 235,
+                                    "poiId": "5c6ec7e8baee4c1edcae58f2",
+                                    "name": "Lillestr�m stasjon",
+                                    "coordinates": {
+                                        "lat": 59.9539,
+                                        "long": 11.04352
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 2.7,
+                                        "drive": 4.3,
+                                        "walk": 3.7,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 2739,
+                                        "drive": 494,
+                                        "unit": "s"
+                                    },
+                                    "transportTypes": [
+                                        240,
+                                        220,
+                                        223
+                                    ],
+                                    "amount": "9966",
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 494,
+                                    "measureUnit": "s",
+                                    "measureText": "8 min",
+                                    "sortPriority": 2,
+                                    "description": "Buss, Tog, Flytog"
+                                },
+                                {
+                                    "poitypeId": 240,
+                                    "poiId": "5c5c44bfeda2c952885ff0be",
+                                    "name": "Holtveien",
+                                    "coordinates": {
+                                        "lat": 59.97634,
+                                        "long": 11.02368
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 0.2,
+                                        "drive": 0.3,
+                                        "walk": 0.3,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 254,
+                                        "drive": 38,
+                                        "unit": "s"
+                                    },
+                                    "lines": [
+                                        {
+                                            "lineId": "340"
+                                        }
+                                    ],
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 254,
+                                    "measureUnit": "s",
+                                    "measureText": "4 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 220,
+                                    "poiId": "5c5c4541eda2c952886070e0",
+                                    "name": "Lillestr�m stasjon",
+                                    "coordinates": {
+                                        "lat": 59.95322,
+                                        "long": 11.04468
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 2.9,
+                                        "drive": 4.3,
+                                        "walk": 3.7,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 2783,
+                                        "drive": 517,
+                                        "unit": "s"
+                                    },
+                                    "lines": [
+                                        {
+                                            "lineId": "F1"
+                                        },
+                                        {
+                                            "lineId": "L1"
+                                        },
+                                        {
+                                            "lineId": "F6"
+                                        },
+                                        {
+                                            "lineId": "RE10"
+                                        },
+                                        {
+                                            "lineId": "RE11"
+                                        },
+                                        {
+                                            "lineId": "R12"
+                                        },
+                                        {
+                                            "lineId": "R13"
+                                        },
+                                        {
+                                            "lineId": "R14"
+                                        }
+                                    ],
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 517,
+                                    "measureUnit": "s",
+                                    "measureText": "9 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 221,
+                                    "poiId": "5c5c4541eda2c952886070f6",
+                                    "name": "Oslo S",
+                                    "coordinates": {
+                                        "lat": 59.91093,
+                                        "long": 10.75328
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 16.9,
+                                        "drive": 20.2,
+                                        "walk": null,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "drive": 1360,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 1360,
+                                    "measureUnit": "s",
+                                    "measureText": "23 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 250,
+                                    "poiId": "5c5c44d9eda2c95288600a2f",
+                                    "name": "Bleik�ya",
+                                    "coordinates": {
+                                        "lat": 59.88902,
+                                        "long": 10.73492
+                                    },
+                                    "distances": {
+                                        "selected": "air",
+                                        "air": 18.9,
+                                        "drive": null,
+                                        "walk": null,
+                                        "unit": "km"
+                                    },
+                                    "lines": [
+                                        {
+                                            "lineId": "B1"
+                                        }
+                                    ],
+                                    "measure": "distance",
+                                    "measureType": "air",
+                                    "measureValue": 18.9,
+                                    "measureUnit": "km",
+                                    "measureText": "18.9 km",
+                                    "sortPriority": 3
+                                },
+                                {
+                                    "poitypeId": 250,
+                                    "poiId": "5c5c44d9eda2c95288600a43",
+                                    "name": "Gressholmen",
+                                    "coordinates": {
+                                        "lat": 59.88644,
+                                        "long": 10.72541
+                                    },
+                                    "distances": {
+                                        "selected": "air",
+                                        "air": 19.5,
+                                        "drive": null,
+                                        "walk": null,
+                                        "unit": "km"
+                                    },
+                                    "lines": [
+                                        {
+                                            "lineId": "B1"
+                                        }
+                                    ],
+                                    "measure": "distance",
+                                    "measureType": "air",
+                                    "measureValue": 19.5,
+                                    "measureUnit": "km",
+                                    "measureText": "19.5 km",
+                                    "sortPriority": 3
+                                },
+                                {
+                                    "poitypeId": 210,
+                                    "poiId": "58c72f35b1a1eaff7c965b0c",
+                                    "name": "Oslo Gardermoen",
+                                    "coordinates": {
+                                        "lat": 60.19325,
+                                        "long": 11.09865
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 24.3,
+                                        "drive": 32.9,
+                                        "walk": null,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "drive": 1460,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 1460,
+                                    "measureUnit": "s",
+                                    "measureText": "24 min",
+                                    "sortPriority": 2
+                                }
+                            ]
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "1010",
+                            "name": "Kollektivtilbud",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Veldig bra",
+                                "neighborhood": 86,
+                                "city": 78,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Veldig bra"
+                            }
+                        },
+                        {
+                            "type": "PRIMARYTRANSPORT",
+                            "data": [
+                                {
+                                    "group": "Egen bil",
+                                    "percent": {
+                                        "neighborhood": 0.012237762237762307
+                                    }
+                                },
+                                {
+                                    "group": "Buss",
+                                    "percent": {
+                                        "neighborhood": 0.005244755244755192
+                                    }
+                                }
+                            ],
+                            "id": "primarytransport"
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "1011",
+                            "name": "Gateparkering",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Vanskelig til tider",
+                                "neighborhood": 71,
+                                "city": 78,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Lett"
+                            }
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "1012",
+                            "name": "Trafikk",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Lite trafikk",
+                                "neighborhood": 67,
+                                "city": 76,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Lite trafikk"
+                            }
+                        }
+                    ],
+                    "environment": [
+                        {
+                            "type": "HOUSING_STOCK",
+                            "values": null,
+                            "id": "housing_stock"
+                        },
+                        {
+                            "type": "HOUSING_OWNERSHIP",
+                            "values": null,
+                            "id": "housing_ownership"
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "1003",
+                            "name": "Opplevd trygghet",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Veldig trygt",
+                                "neighborhood": 84,
+                                "city": 86,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Veldig trygt"
+                            }
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "1005",
+                            "name": "St�yniv�et",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Lite st�yniv�",
+                                "neighborhood": 80,
+                                "city": 86,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Lite st�yniv�"
+                            }
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "1004",
+                            "name": "Naboskapet",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Godt vennskap",
+                                "neighborhood": 67,
+                                "city": 69,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Godt vennskap"
+                            }
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "1002",
+                            "name": "Vedlikehold hager",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Godt velholdt",
+                                "neighborhood": 67,
+                                "city": 75,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Godt velholdt"
+                            }
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "1001",
+                            "name": "Vedlikehold veier",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Godt velholdt",
+                                "neighborhood": 78,
+                                "city": 75,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Godt velholdt"
+                            }
+                        },
+                        {
+                            "type": "HOUSING_AREA",
+                            "values": [
+                                {
+                                    "group": "0-60",
+                                    "percent": {
+                                        "neighborhood": 8.372,
+                                        "city": 13.854
+                                    }
+                                },
+                                {
+                                    "group": "60-120",
+                                    "percent": {
+                                        "neighborhood": 51.606,
+                                        "city": 44.317
+                                    }
+                                },
+                                {
+                                    "group": "120-200",
+                                    "percent": {
+                                        "neighborhood": 30.734,
+                                        "city": 28.818
+                                    }
+                                },
+                                {
+                                    "group": "200+",
+                                    "percent": {
+                                        "neighborhood": 9.289,
+                                        "city": 13.011
+                                    }
+                                }
+                            ],
+                            "id": "housing_area"
+                        },
+                        {
+                            "type": "HOUSING_AGE",
+                            "values": [
+                                {
+                                    "group": "0-10",
+                                    "percent": {
+                                        "neighborhood": 56.493,
+                                        "city": 13.131
+                                    }
+                                },
+                                {
+                                    "group": "10-30",
+                                    "percent": {
+                                        "neighborhood": 23.085,
+                                        "city": 29.559
+                                    }
+                                },
+                                {
+                                    "group": "30-50",
+                                    "percent": {
+                                        "neighborhood": 6.437,
+                                        "city": 31.399
+                                    }
+                                },
+                                {
+                                    "group": "50+",
+                                    "percent": {
+                                        "neighborhood": 13.984,
+                                        "city": 25.911
+                                    }
+                                }
+                            ],
+                            "id": "housing_age"
+                        },
+                        {
+                            "type": "HOUSING_PRICES",
+                            "values": [
+                                {
+                                    "group": "0-2000000",
+                                    "percent": {
+                                        "neighborhood": 0.701,
+                                        "city": 2.525
+                                    }
+                                },
+                                {
+                                    "group": "2000000-3000000",
+                                    "percent": {
+                                        "neighborhood": 18.039,
+                                        "city": 8.909
+                                    }
+                                },
+                                {
+                                    "group": "3000000-4000000",
+                                    "percent": {
+                                        "neighborhood": 21.366,
+                                        "city": 18.545
+                                    }
+                                },
+                                {
+                                    "group": "4000000-5000000",
+                                    "percent": {
+                                        "neighborhood": 16.637,
+                                        "city": 21.01
+                                    }
+                                },
+                                {
+                                    "group": "5000000-6000000",
+                                    "percent": {
+                                        "neighborhood": 22.417,
+                                        "city": 23.172
+                                    }
+                                },
+                                {
+                                    "group": "6000000+",
+                                    "percent": {
+                                        "neighborhood": 20.841,
+                                        "city": 25.838
+                                    }
+                                }
+                            ],
+                            "id": "housing_prices"
+                        }
+                    ],
+                    "leisure": [
+                        {
+                            "type": "POIS",
+                            "id": "sport",
+                            "pois": [
+                                {
+                                    "poitypeId": 310,
+                                    "poiId": "5f4fb3119481222fac0f2b9f",
+                                    "name": "Skedsmovollen skole",
+                                    "coordinates": {
+                                        "lat": 59.97645,
+                                        "long": 11.0408
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 0.9,
+                                        "drive": 1.6,
+                                        "walk": 1.2,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 909,
+                                        "drive": 161,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 909,
+                                    "measureUnit": "s",
+                                    "measureText": "15 min",
+                                    "sortPriority": 2,
+                                    "description": "Aktivitetshall, ballspill"
+                                },
+                                {
+                                    "poitypeId": 310,
+                                    "poiId": "5f4fb2f19481222fac0ee1a3",
+                                    "name": "Sollia terrasse - ball�kke",
+                                    "coordinates": {
+                                        "lat": 59.98683,
+                                        "long": 11.03536
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 1.2,
+                                        "drive": 3.3,
+                                        "walk": 1.3,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 920,
+                                        "drive": 355,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 920,
+                                    "measureUnit": "s",
+                                    "measureText": "15 min",
+                                    "sortPriority": 2,
+                                    "description": "Ballspill"
+                                },
+                                {
+                                    "poitypeId": 330,
+                                    "poiId": "58c72f7eb1a1eaff7c96fad7",
+                                    "name": "Lillestr�m Arena",
+                                    "coordinates": {
+                                        "lat": 59.9638,
+                                        "long": 11.04793
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 2,
+                                        "drive": 2.7,
+                                        "walk": 2.7,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 1979,
+                                        "drive": 253,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 253,
+                                    "measureUnit": "s",
+                                    "measureText": "4 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 330,
+                                    "poiId": "58c72f7fb1a1eaff7c96fd68",
+                                    "name": "EVO Lillestr�m",
+                                    "coordinates": {
+                                        "lat": 59.95507,
+                                        "long": 11.0499
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 2.8,
+                                        "drive": 3.8,
+                                        "walk": 3.5,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 2581,
+                                        "drive": 403,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 403,
+                                    "measureUnit": "s",
+                                    "measureText": "7 min",
+                                    "sortPriority": 2
+                                }
+                            ]
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "1009",
+                            "name": "Turmulighetene",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "N�rhet til skog og mark",
+                                "neighborhood": 73,
+                                "city": 84,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "N�rhet til skog og mark"
+                            }
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "2016",
+                            "name": "Aktivitetstilbud",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Bra",
+                                "neighborhood": 75,
+                                "city": 73,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Bra"
+                            }
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "2019",
+                            "name": "Serveringstilbud",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Bra",
+                                "neighborhood": 64,
+                                "city": 60,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Bra"
+                            }
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "2018",
+                            "name": "Uteliv",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Bra",
+                                "neighborhood": 33,
+                                "city": 36,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Bra"
+                            }
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "2017",
+                            "name": "Kulturtilbud",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Bra",
+                                "neighborhood": 45,
+                                "city": 52,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Bra"
+                            }
+                        }
+                    ],
+                    "shopping": [
+                        {
+                            "type": "POIS",
+                            "id": "groceries",
+                            "pois": [
+                                {
+                                    "poitypeId": 1100,
+                                    "poiId": "6098b7011e606000129d7978",
+                                    "name": "Rema 1000 Holt Vestvollen",
+                                    "coordinates": {
+                                        "lat": 59.98602,
+                                        "long": 11.02804
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 1,
+                                        "drive": 2.7,
+                                        "walk": 1.2,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 949,
+                                        "drive": 278,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 949,
+                                    "measureUnit": "s",
+                                    "measureText": "16 min",
+                                    "sortPriority": 2,
+                                    "description": "Posten"
+                                },
+                                {
+                                    "poitypeId": 1100,
+                                    "poiId": "58c72f76b1a1eaff7c96ecde",
+                                    "name": "Kiwi Holt Vestvollen",
+                                    "coordinates": {
+                                        "lat": 59.98647,
+                                        "long": 11.02708
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 1,
+                                        "drive": 2.6,
+                                        "walk": 1.4,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 1049,
+                                        "drive": 255,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 1049,
+                                    "measureUnit": "s",
+                                    "measureText": "17 min",
+                                    "sortPriority": 2,
+                                    "description": "PostNord"
+                                },
+                                {
+                                    "poitypeId": 700,
+                                    "poiId": "58c7303cb1a1eaff7c98059f",
+                                    "name": "Lillestr�m Torv",
+                                    "coordinates": {
+                                        "lat": 59.95615,
+                                        "long": 11.04848
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 2.6,
+                                        "drive": 3.2,
+                                        "walk": 3.2,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 2380,
+                                        "drive": 363,
+                                        "unit": "s"
+                                    },
+                                    "nearby": [
+                                        {
+                                            "poiTypeId": "900",
+                                            "name": "Vitusapotek Lillestr�m Torv",
+                                            "id": "58c73064b1a1eaff7c9830b1"
+                                        },
+                                        {
+                                            "poiTypeId": "1100",
+                                            "name": "Coop Prix Lillestr�m Torv",
+                                            "id": "58c72f73b1a1eaff7c96e60e"
+                                        },
+                                        {
+                                            "poiTypeId": "1100",
+                                            "name": "Kiwi Lillestr�m",
+                                            "id": "58c72f38b1a1eaff7c9665de"
+                                        },
+                                        {
+                                            "poiTypeId": "330",
+                                            "name": "EVO Lillestr�m",
+                                            "id": "58c72f7fb1a1eaff7c96fd68"
+                                        }
+                                    ],
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 363,
+                                    "measureUnit": "s",
+                                    "measureText": "6 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 700,
+                                    "poiId": "58c73041b1a1eaff7c980b3c",
+                                    "name": "Skjetten N�rsenter",
+                                    "coordinates": {
+                                        "lat": 59.96707,
+                                        "long": 10.99948
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 1.9,
+                                        "drive": 3.6,
+                                        "walk": 3.2,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 2414,
+                                        "drive": 417,
+                                        "unit": "s"
+                                    },
+                                    "nearby": [
+                                        {
+                                            "poiTypeId": "900",
+                                            "name": "Boots apotek Skjetten",
+                                            "id": "58c7304db1a1eaff7c981880"
+                                        },
+                                        {
+                                            "poiTypeId": "1100",
+                                            "name": "MENY Skjetten",
+                                            "id": "58c72f43b1a1eaff7c9677ff"
+                                        }
+                                    ],
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 417,
+                                    "measureUnit": "s",
+                                    "measureText": "7 min",
+                                    "sortPriority": 2
+                                }
+                            ]
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "1013",
+                            "name": "Matvareutvalg",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Standard utvalg",
+                                "neighborhood": 45,
+                                "city": 71,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Stort mangfold"
+                            }
+                        },
+                        {
+                            "type": "POIS",
+                            "id": "services",
+                            "pois": [
+                                {
+                                    "poitypeId": 900,
+                                    "poiId": "5afaa0bd8f6d591426ebd0cc",
+                                    "name": "Apotek 1 Holt Vestvollen",
+                                    "coordinates": {
+                                        "lat": 59.98652,
+                                        "long": 11.02744
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 1,
+                                        "drive": 2.6,
+                                        "walk": 1.3,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 1024,
+                                        "drive": 242,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 1024,
+                                    "measureUnit": "s",
+                                    "measureText": "17 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 900,
+                                    "poiId": "618276ced959300004bf853e",
+                                    "name": "Vitusapotek Kjeller",
+                                    "coordinates": {
+                                        "lat": 59.96938,
+                                        "long": 11.05124
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 1.7,
+                                        "drive": 1.9,
+                                        "walk": 1.8,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 1357,
+                                        "drive": 196,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 1357,
+                                    "measureUnit": "s",
+                                    "measureText": "23 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 1000,
+                                    "poiId": "58c72f1ab1a1eaff7c960eb2",
+                                    "name": "Lillestr�m Vinmonopol",
+                                    "coordinates": {
+                                        "lat": 59.95759,
+                                        "long": 11.04833
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 2.5,
+                                        "drive": 3.2,
+                                        "walk": 3.1,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 2324,
+                                        "drive": 338,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 338,
+                                    "measureUnit": "s",
+                                    "measureText": "6 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 1000,
+                                    "poiId": "5a4b3acbc74a26cc786528bf",
+                                    "name": "Vinmonopolet Skedsmo senter",
+                                    "coordinates": {
+                                        "lat": 60.00118,
+                                        "long": 11.04014
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 2.8,
+                                        "drive": 5.9,
+                                        "walk": 3.5,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 2521,
+                                        "drive": 526,
+                                        "unit": "s"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 526,
+                                    "measureUnit": "s",
+                                    "measureText": "9 min",
+                                    "sortPriority": 2
+                                }
+                            ]
+                        }
+                    ],
+                    "family": [
+                        {
+                            "type": "FAMILIES_WITH_CHILDREN",
+                            "values": {
+                                "neighborhood": 22.61640798226164,
+                                "city": 35.42037084074168
+                            },
+                            "id": "families_with_children"
+                        },
+                        {
+                            "type": "AGE_DISTRIBUTION_CHILDREN",
+                            "values": [
+                                {
+                                    "group": "0-5",
+                                    "percent": {
+                                        "neighborhood": 41.263,
+                                        "city": 29.216
+                                    }
+                                },
+                                {
+                                    "group": "6-12",
+                                    "percent": {
+                                        "neighborhood": 38.947,
+                                        "city": 37.44
+                                    }
+                                },
+                                {
+                                    "group": "13-15",
+                                    "percent": {
+                                        "neighborhood": 9.474,
+                                        "city": 16.569
+                                    }
+                                },
+                                {
+                                    "group": "16-18",
+                                    "percent": {
+                                        "neighborhood": 10.316,
+                                        "city": 16.775
+                                    }
+                                }
+                            ],
+                            "id": "age_distribution_children"
+                        },
+                        {
+                            "type": "POIS",
+                            "id": "schools",
+                            "pois": [
+                                {
+                                    "poitypeId": 401,
+                                    "poiId": "58c7306cb1a1eaff7c9838f9",
+                                    "name": "Grunnskolen Oslo Kristne Senter",
+                                    "coordinates": {
+                                        "lat": 59.98085,
+                                        "long": 11.01329
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 0.8,
+                                        "drive": 1.8,
+                                        "walk": 1.2,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 960,
+                                        "drive": 202,
+                                        "unit": "s"
+                                    },
+                                    "school": {
+                                        "students": 235,
+                                        "classes": 10,
+                                        "levels": "1-10 kl."
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 960,
+                                    "measureUnit": "s",
+                                    "measureText": "16 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 401,
+                                    "poiId": "58c73063b1a1eaff7c982f50",
+                                    "name": "Kjeller skole",
+                                    "coordinates": {
+                                        "lat": 59.97391,
+                                        "long": 11.04037
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 0.9,
+                                        "drive": 1.3,
+                                        "walk": 1.3,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 967,
+                                        "drive": 118,
+                                        "unit": "s"
+                                    },
+                                    "school": {
+                                        "students": 580,
+                                        "classes": 25,
+                                        "levels": "1-10 kl."
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 967,
+                                    "measureUnit": "s",
+                                    "measureText": "16 min",
+                                    "sortPriority": 2
+                                }
+                            ]
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "1007",
+                            "name": "Kvalitet p� skolene",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Veldig bra",
+                                "neighborhood": 84,
+                                "city": 81,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Veldig bra"
+                            }
+                        },
+                        {
+                            "type": "POIS",
+                            "id": "kindergardens",
+                            "pois": [
+                                {
+                                    "poitypeId": 600,
+                                    "poiId": "58c7304cb1a1eaff7c98177e",
+                                    "name": "Kunnskapsbyen Barnehage",
+                                    "coordinates": {
+                                        "lat": 59.97683,
+                                        "long": 11.03469
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 0.5,
+                                        "drive": 0.9,
+                                        "walk": 0.9,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 663,
+                                        "drive": 114,
+                                        "unit": "s"
+                                    },
+                                    "school": {
+                                        "students": 126,
+                                        "classes": 6,
+                                        "levels": "0-6 �r"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 663,
+                                    "measureUnit": "s",
+                                    "measureText": "11 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 600,
+                                    "poiId": "58c7304cb1a1eaff7c98178e",
+                                    "name": "Toppen barnehage",
+                                    "coordinates": {
+                                        "lat": 59.98477,
+                                        "long": 11.03462
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 1,
+                                        "drive": 3.4,
+                                        "walk": 1.1,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 784,
+                                        "drive": 366,
+                                        "unit": "s"
+                                    },
+                                    "school": {
+                                        "students": 68,
+                                        "classes": 4,
+                                        "levels": "1-6 �r"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 784,
+                                    "measureUnit": "s",
+                                    "measureText": "13 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 600,
+                                    "poiId": "58c7304db1a1eaff7c9817f6",
+                                    "name": "Holthagen barnehage",
+                                    "coordinates": {
+                                        "lat": 59.98732,
+                                        "long": 11.03947
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 1.3,
+                                        "drive": 3.2,
+                                        "walk": 1.6,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 1183,
+                                        "drive": 299,
+                                        "unit": "s"
+                                    },
+                                    "school": {
+                                        "students": 69,
+                                        "classes": 4,
+                                        "levels": "1-5 �r"
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 1183,
+                                    "measureUnit": "s",
+                                    "measureText": "20 min",
+                                    "sortPriority": 2
+                                }
+                            ]
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "1008",
+                            "name": "Kvalitet p� barnehagene",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Veldig bra",
+                                "neighborhood": 85,
+                                "city": 82,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Veldig bra"
+                            }
+                        },
+                        {
+                            "type": "RATING",
+                            "id": "1006",
+                            "name": "Trygghet der barna ferdes",
+                            "completedratings": 52,
+                            "score": {
+                                "text": "Trygge",
+                                "neighborhood": 74,
+                                "city": 77,
+                                "cityName": "Skedsmokorset",
+                                "cityText": "Trygge"
+                            }
+                        },
+                        {
+                            "type": "POIS",
+                            "id": "highschools",
+                            "pois": [
+                                {
+                                    "poitypeId": 500,
+                                    "poiId": "617fdc0d88b66100042b3eb7",
+                                    "name": "OKS Videreg�ende skole",
+                                    "coordinates": {
+                                        "lat": 59.98148,
+                                        "long": 11.01407
+                                    },
+                                    "distances": {
+                                        "selected": "walk",
+                                        "air": 0.8,
+                                        "drive": 1.8,
+                                        "walk": 1.2,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 964,
+                                        "drive": 194,
+                                        "unit": "s"
+                                    },
+                                    "school": {
+                                        "students": 0,
+                                        "classes": 0
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "walk",
+                                    "measureValue": 964,
+                                    "measureUnit": "s",
+                                    "measureText": "16 min",
+                                    "sortPriority": 2
+                                },
+                                {
+                                    "poitypeId": 500,
+                                    "poiId": "58c73035b1a1eaff7c97fe1c",
+                                    "name": "Lillestr�m videreg�ende skole",
+                                    "coordinates": {
+                                        "lat": 59.96077,
+                                        "long": 11.04682
+                                    },
+                                    "distances": {
+                                        "selected": "drive",
+                                        "air": 2.2,
+                                        "drive": 3,
+                                        "walk": 3,
+                                        "unit": "km"
+                                    },
+                                    "duration": {
+                                        "walk": 2194,
+                                        "drive": 305,
+                                        "unit": "s"
+                                    },
+                                    "school": {
+                                        "students": 800,
+                                        "classes": 34
+                                    },
+                                    "measure": "duration",
+                                    "measureType": "drive",
+                                    "measureValue": 305,
+                                    "measureUnit": "s",
+                                    "measureText": "5 min",
+                                    "sortPriority": 2
+                                }
+                            ]
+                        },
+                        {
+                            "type": "FAMILY_COMPOSITION",
+                            "values": [
+                                {
+                                    "group": "CouplesWithChildren",
+                                    "percent": {
+                                        "neighborhood": 13.969,
+                                        "city": 25.457
+                                    }
+                                },
+                                {
+                                    "group": "CouplesWithoutChildren",
+                                    "percent": {
+                                        "neighborhood": 19.956,
+                                        "city": 28.124
+                                    }
+                                },
+                                {
+                                    "group": "SingleWithChildren",
+                                    "percent": {
+                                        "neighborhood": 5.543,
+                                        "city": 6.668
+                                    }
+                                },
+                                {
+                                    "group": "SingleWithoutChildren",
+                                    "percent": {
+                                        "neighborhood": 57.428,
+                                        "city": 36.455
+                                    }
+                                },
+                                {
+                                    "group": "MultiFamilies",
+                                    "percent": {
+                                        "neighborhood": 3.104,
+                                        "city": 3.296
+                                    }
+                                }
+                            ],
+                            "id": "family_composition"
+                        }
+                    ]
+                },
+                "loaded": true,
+                "pois": [],
+                "skiTracks": []
+            },
+            "address": {
+                "error": false,
+                "searchWord": "",
+                "suggestions": [],
+                "selectedComparisson": null,
+                "comparisonData": null,
+                "comparisonDataLoading": false,
+                "preferedCity": null
+            },
+            "ui": {
+                "dialogOpen": false,
+                "isMobile": ""
+            },
+            "travelTime": {
+                "error": null,
+                "hasCheckedStorage": false,
+                "addresses": [],
+                "routeInfo": {}
+            },
+            "user": {
+                "user": null
+            }
+        },
+        "initialProps": {
+            "initialI18nStore": {
+                "no": {
+                    "activities": {
+                        "pois": {
+                            "alpine": "Alpin",
+                            "skitracks": "Langrenn",
+                            "activities": "Aktiviteter",
+                            "harbour": "Havner",
+                            "sport": "Sport"
+                        }
+                    },
+                    "common": {
+                        "addressSearchGDPR": "Vi bruker Informasjonskapsler (Local storage eller cookies) for at du skal slippe � skrive adresser flere ganger. Adressene du legger inn blir kun lagret i din nettleser.",
+                        "addressSearchGDPRSchibstedAccount": "Vi lagrer adressen din i v�re systemer med referanse til din Schibsted-konto for at du skal slippe � skrive adressen flere ganger.",
+                        "addressSearchPlaceholder": "Skriv inn en adresse",
+                        "area": "omr�de",
+                        "bottomMoreActions": "Du kan ogs�",
+                        "cancel": "Avbryt",
+                        "cards": {
+                            "FAMILIES": "{{ value }}% barnefamilier",
+                            "QUOTE_FROM": "Sitat fra {{ from }}",
+                            "SKI_TRACKS_CLOSEST": "N�rmeste preparerte skil�ype: {{ distance }}",
+                            "SKI_TRACKS_TOTAL_DISTANCE": "{{ distance }} l�yper i omr�det"
+                        },
+                        "census": "grunnkrets",
+                        "censusLabel": "{{ value }} grunnkrets",
+                        "children": "Barn",
+                        "childrenMap": "barn",
+                        "classes": "klasser",
+                        "close": "Lukk",
+                        "back": "Tilbake",
+                        "compareAddress": "Sammenligne {{ address }} med der du bor i dag",
+                        "compareAddressWidget": "Sammenlign adressen med der du bor idag:",
+                        "compareAddressWidgetNoAddress": "Sammenlign adressen med der du bor idag",
+                        "compareAddressWidgetNoAddressLinkText": "Finn adresse",
+                        "error": {
+                            "COULD_NOT_READ_DATA": {
+                                "text": "Venter p� respons fra API",
+                                "title": "Venter p� respons fra API"
+                            },
+                            "invalid-json": {
+                                "detailed": "Ingen ",
+                                "text": "Profil med id {{ id }} kunne ikke lastes inn. Pr�v � laste inn siden p� nytt og forsikre deg om at du har riktig id.",
+                                "title": "Nabolaget kunne ikke lastes"
+                            },
+                            "no-comparison-data": {
+                                "text": "Det virker som om vi ikke kunne finne noen data for denne sammenligningen. Vennligst pr�v igjen eller se p� nabolaget du sammenlignet med.",
+                                "title": "Ingen data for sammenlign funnet"
+                            },
+                            "request-timeout": {
+                                "text": "Pr�v p� nytt med knappen under.",
+                                "title": "Beklager, siden tok for lang tid � laste"
+                            },
+                            "tryReload": "Last inn siden p� ny"
+                        },
+                        "errorCategoryText": "Det har oppst�tt en feil. Se tekst under for forklaring",
+                        "errorCategoryTitle": "Feilmelding",
+                        "exploreCategories": "Utforsk kategoriene",
+                        "factCards": "Utvalgte fakta",
+                        "factsCardHeader": "Utvalgte fakta",
+                        "factsCards": "Utvalgte fakta",
+                        "footerMenu": {
+                            "about": "Om oss",
+                            "privacy": "Personvernerkl�ring",
+                            "sources": "Kilder",
+                            "terms": "Brukervilk�r"
+                        },
+                        "frontpage": {
+                            "intro": "Relevant og nyttig informasjon om n�romr�det for boliginteressenter",
+                            "label": "Finnkode",
+                            "placeholder": "Tast inn finnkode",
+                            "submit": "Vis Nabolagsprofil",
+                            "title": "Velkommen til nabolagsprofil"
+                        },
+                        "houses": "husholdninger",
+                        "level": "Niv�",
+                        "map": "Kart",
+                        "mapButton": {
+                            "altText": "Vis adressen i kartet",
+                            "buttonText": "Vis adressen i kartet"
+                        },
+                        "menu": {
+                            "comparison": "Sammenlign med annen adresse",
+                            "map": "Se n�romr�det i kartet",
+                            "overview": "Se   oversikt",
+                            "readMoreAbout": "Les mer om",
+                            "toFrontpage": "Til forsiden",
+                            "travel-time": "Finn reisetider"
+                        },
+                        "menuBackTo": "Tilbake til annonsen",
+                        "menuToOverview": "Til oversikt",
+                        "moreAbout": {
+                            "activities": "Mer om aktiviteter",
+                            "alpine": "Mer om alpin",
+                            "businesses": "Mer om bedriftsinfo",
+                            "environment": "Mer om bomilj�",
+                            "family": "Mer om familie",
+                            "leisure": "Mer om fritid",
+                            "people": "Mer om menneskene",
+                            "shopping": "Mer om handel",
+                            "skitracks": "Mer om skil�yper",
+                            "transport": "Mer om transport",
+                            "travel-time": "Se flere reisetider"
+                        },
+                        "municipality": "kommune",
+                        "municipalityLabel": "{{ value }} kommune",
+                        "navigateToCategory": "G� til: {{category}}",
+                        "navigateToNextCategory": "G� til neste kategori: {{category}}",
+                        "neighbourhood": "Nabolag",
+                        "numberAbbr": "Velg nr",
+                        "openOnSunday": "S�ndags�pen",
+                        "peopleList": "Personer",
+                        "pib": "Posten",
+                        "pupils": "elever",
+                        "ratedByNrOfUsers": "Vurdert av {{ ratings }} lokalkjente",
+                        "search": {
+                            "pleaseEnterHouseNumber": "Angi en adresse for sammenligning"
+                        },
+                        "section": "avdeling",
+                        "sections": "avdelinger",
+                        "spib": "PostNord",
+                        "statisticsText": "Over 140 000 vurderinger eller besvarelser om kvaliteter i et nabolag er samlet inn fra brukere p� nettsiden nabolag.no. Brukere er beboere eller andre som kjenner nabolaget (lokalkjente). Antallet refereres til antall besvarelser gjennomf�rt p� sp�rreunders�kelsen i det gitte nabolaget. I resultatene vises en oppsummert gjennomsnitt score fra 0 til 100 basert p� alle besvarelsene i nabolaget.",
+                        "statisticsTitle": "Hvor f�r vi statistikken v�r fra?",
+                        "step": "Trinn",
+                        "use": "Bruk",
+                        "viewInMap": "Vis i kart",
+                        "welcomeTitle": "Velkommen til {{ address }}!",
+                        "welcomeTo": "Velkommen til {{header}}",
+                        "whatDoesTheNeighborsSay": "Hva sier naboene?",
+                        "save": "Lagre",
+                        "tryLaterButton": {
+                            "buttonText": "Pr�v igjen senere",
+                            "aria": "Pr�v igjen senere"
+                        },
+                        "signOut": "Logg ut",
+                        "yes": "Ja",
+                        "no": "Nei"
+                    },
+                    "categories": {
+                        "activities": "Aktiviteter",
+                        "businesses": "Bedriftsinfo",
+                        "environment": "Bomilj�",
+                        "family": "Familie",
+                        "leisure": "Fritid",
+                        "people": "Menneskene",
+                        "shopping": "Handel",
+                        "transport": "Transport"
+                    },
+                    "error": {
+                        "404": {
+                            "headTitle": "404 - Finner ikke profil",
+                            "text": "Beklager - vi har ingen informasjon � vise. G� gjerne tilbake og pr�v igjen.",
+                            "title": "404 feil"
+                        },
+                        "500": {
+                            "text": "Serveren kr�sjet. Problemet er rapportert og vil bli fikset s� fort som mulig.",
+                            "title": "Serverfeil"
+                        },
+                        "request-timeout": "Siden tok for lang tid � laste. Pr�v p� nytt med knappen nedenfor."
+                    },
+                    "map": {
+                        "bikeStations": "Kapasitet: {{ value }} sykler",
+                        "filters": {
+                            "activities": "Aktiviteter",
+                            "all": "Alle",
+                            "greenEnvironment": "Gr�nn transport",
+                            "groceries": "Dagligvare og handel",
+                            "higherEducation": "H�yere utdanning",
+                            "highSchools": "Videreg�ende skoler",
+                            "kindergardens": "Barnehager",
+                            "publicTransport": "Offentlig transport",
+                            "schools": "Skoler",
+                            "shopping": "Diverse varer",
+                            "skiTracks": "Skil�yper",
+                            "sport": "Sport",
+                            "sports": "Sport",
+                            "winterSports": "Vintersport",
+                            "taxiAndParking": "Taxi og parkering",
+                            "harbours": "Havner"
+                        },
+                        "loadingStations": "{{ value }} ladeplasser",
+                        "travelOptions": {
+                            "public": "Kollektiv",
+                            "car": "Bil",
+                            "bicycle": "Sykkel",
+                            "walk": "Gange"
+                        },
+                        "publicTravelOptions": {
+                            "fastest": "Raskest",
+                            "direct": "Direkte",
+                            "shorterWalk": "Kort gange",
+                            "lessTransfers": "F� bytter",
+                            "alternativeMode": "Alternativ"
+                        }
+                    },
+                    "businesses": {
+                        "BUILDINGS": {
+                            "name": "Byggmasse"
+                        },
+                        "EMPLOYEES": {
+                            "name": "Antall bedrifter etter ansatte"
+                        },
+                        "INDUSTRIES_NEARBY": {
+                            "name": "Bransjer"
+                        },
+                        "pois_nomap": {
+                            "largebusinesses": "Store bedrifter"
+                        }
+                    },
+                    "charts": {
+                        "adults": "Voksne",
+                        "children": "Barn",
+                        "east": "�st",
+                        "older": "Eldre",
+                        "POIS": {
+                            "kindergardens": "Barnehager",
+                            "schools": "Skoler",
+                            "sport": "Idrettsanlegg og treningssenter",
+                            "transport": "Transport"
+                        },
+                        "rents": "leier",
+                        "south": "S�r",
+                        "west": "Vest"
+                    },
+                    "family": {
+                        "ageDistributionChildren": "Aldersfordeling barn",
+                        "ageDistributionChildren-0-5": "Barnehage",
+                        "ageDistributionChildren-13-15": "Ung.skole",
+                        "ageDistributionChildren-16-18": "VGS e.l.",
+                        "ageDistributionChildren-6-12": "Barneskole",
+                        "AGE_DISTRIBUTION_CHILDREN": {
+                            "0-5": "{{ value }}% i barnehagealder",
+                            "0-5WithValue": "{{ value }}% i barnehagealder",
+                            "13-15": "{{ value }}% g�r p� ung.skole",
+                            "13-15WithValue": "{{ value }}% g�r p� ung.skole",
+                            "16-18": "{{ value }}% g�r p� VGS e.l.",
+                            "16-18WithValue": "{{ value }}% g�r p� VGS e.l.",
+                            "6-12": "{{ value }}% g�r p� barneskole",
+                            "6-12WithValue": "{{ value }}% g�r p� barneskole",
+                            "name": "Aldersfordeling barn (0-18 �r)"
+                        },
+                        "familiesWithChildren": "Barnefamilier",
+                        "familiesWithChildren-FamiliesWithChildren": "Barnefamilier",
+                        "FAMILIES_WITH_CHILDREN": {
+                            "name": "Barnefamilier",
+                            "value": "er barnefamilier"
+                        },
+                        "familyComposition": "Familiesammensetning",
+                        "familyComposition-CouplesWithChildren": "Par m/ barn",
+                        "familyComposition-CouplesWithoutChildren": "Par u/ barn",
+                        "familyComposition-MultiFamilies": "Flerfamilier",
+                        "familyComposition-SingleWithChildren": "Enslig m/ barn",
+                        "familyComposition-SingleWithoutChildren": "Enslig u/ barn",
+                        "FAMILY_COMPOSITION": {
+                            "CouplesWithChildren": "Par m/barn",
+                            "CouplesWithoutChildren": "Par u/ barn",
+                            "COUPLES_WITHOUT_CHILDREN": "Par u/ barn",
+                            "COUPLES_WITH_CHILDREN": "Par m/ barn",
+                            "FAMILIES_WITH_CHILDREN": "{{ value }}% er barnefamilier",
+                            "MULTIFAMILIES": "Flerfamilier",
+                            "MultiFamilies": "Flerfamilier",
+                            "name": "Familiesammensetning",
+                            "SingleWithChildren": "Enslig m/ barn",
+                            "SingleWithoutChildren": "Enslig u/ barn",
+                            "SINGLE_WITHOUT_CHILDREN": "Enslig u/ barn",
+                            "SINGLE_WITH_CHILDREN": "Enslig m/ barn"
+                        },
+                        "legends": {
+                            "AGE_DISTRIBUTION_CHILDREN": {
+                                "0-5": "AGE_DISTRIBUTION_CHILDREN.0-5",
+                                "13-15": "AGE_DISTRIBUTION_CHILDREN.13-15",
+                                "16-18": "AGE_DISTRIBUTION_CHILDREN.16-18",
+                                "6-12": "AGE_DISTRIBUTION_CHILDREN.6-12"
+                            },
+                            "FAMILIES_WITH_CHILDREN": "FAMILIES_WITH_CHILDREN"
+                        },
+                        "pois": {
+                            "highschools": "Videreg�ende skoler",
+                            "kindergardens": "Barnehager",
+                            "schools": "Skoler"
+                        }
+                    },
+                    "transport": {
+                        "pois": {
+                            "bysykler": "Bysykler",
+                            "distancetocities": "Kj�retid til utvalgte byer",
+                            "ladepunkt": "Ladepunkt for el-bil",
+                            "localtransport": "Lokal offentlig transport",
+                            "regionaltransport": "Regional offentlig transport",
+                            "taxiandparking": "Taxi og parkering",
+                            "transport": "Offentlig transport"
+                        },
+                        "PRIMARYTRANSPORT": {
+                            "name": "Prim�re transportmidler for beboerne"
+                        }
+                    },
+                    "people": {
+                        "ageDistribution": "Aldersfordeling",
+                        "ageDistribution-0-5": "0-5 �r",
+                        "ageDistribution-13-15": "13-15 �r",
+                        "ageDistribution-16-18": "16-18 �r",
+                        "ageDistribution-19-23": "19-23 �r",
+                        "ageDistribution-24-34": "24-34 �r",
+                        "ageDistribution-35-44": "35-44 �r",
+                        "ageDistribution-45-54": "45-54 �r",
+                        "ageDistribution-55-64": "55-64 �r",
+                        "ageDistribution-6-12": "6-12 �r",
+                        "ageDistribution-65-74": "65-74 �r",
+                        "ageDistribution-75-84": "75-84 �r",
+                        "ageDistribution-85+": "85 �r+",
+                        "AGE_DISTRIBUTION": {
+                            "0-12": "Barn (0-12 �r)",
+                            "13-18": "Ungdom (13-18 �r)",
+                            "19-34": "Unge voksne (19-34 �r)",
+                            "35-64": "Voksne (35-64 �r)",
+                            "65+": "Godt voksne (Over 65 �r)",
+                            "name": "Aldersfordeling"
+                        },
+                        "civilStatus": "Sivilstatus",
+                        "civilStatus-Married": "Gift / registrert partnerskap",
+                        "civilStatus-NotMarried": "Ikke gift",
+                        "civilStatus-Separated": "Separert",
+                        "civilStatus-Widow": "Enke / enkemann",
+                        "CIVIL_STATUS": {
+                            "MARRIED": "Gift / registrert partnerskap",
+                            "Married": "Gift / registrert partnerskap",
+                            "MarriedWithValue": "{{ value }}% er gift / registrert partnerskap",
+                            "name": "Sivil status",
+                            "NotMarried": "Ikke gift",
+                            "NotMarriedWithValue": "{{ value }}% er ikke gift",
+                            "NOT_MARRIED": "Ikke gift",
+                            "Separated": "Separert",
+                            "SeparatedWithValue": "{{ value }}% er separert",
+                            "SEPERATED": "Separert",
+                            "Seperated": "Separert",
+                            "WIDOW": "Enke / enkemann",
+                            "Widow": "Enke / enkemann",
+                            "WidowWithValue": "{{ value }}% er enke / enkemann"
+                        },
+                        "education": "Utdanning",
+                        "education-AllmenneFag": "Allmenne Fag",
+                        "education-Andre": "Andre / uoppgitt",
+                        "education-HelseSosial": "Helse og Sosial",
+                        "education-HumanEstetikk": "Human og estetikk",
+                        "education-Laerer": "L�rerutdanning",
+                        "education-NatVit": "Nat.vit, teknikk, h�ndverk",
+                        "education-Okonomiske": "�konomiske og adm.",
+                        "education-Primaer": "Prim�rn�ring",
+                        "education-Samferdsel": "Samferdsel og service",
+                        "education-Samfunn": "Sammfunn, medie og jus",
+                        "EDUCATION": {
+                            "AllmenneFag": "Allmenne Fag",
+                            "Andre": "Andre / uoppgitt",
+                            "HelseSosial": "Helse og Sosial",
+                            "HumanEstetikk": "Human og estetikk",
+                            "Laerer": "L�rerutdanning",
+                            "name": "Utdanning",
+                            "NatVit": "Nat.vit, teknikk, h�ndverk",
+                            "Okonomiske": "�konomiske og adm.",
+                            "Primaer": "Prim�rn�ring",
+                            "Samferdsel": "Samferdsel og service",
+                            "Samfunn": "Sammfunn, medie og jus"
+                        },
+                        "income": "Inntekt",
+                        "income-0": "Uten inntekt",
+                        "income-0-100000": "0 - 100 000",
+                        "income-0-200000": "\u003c 200 000",
+                        "income-100000-200000": "100 000 - 200 000",
+                        "income-200000-400000": "200 000 - 400 000",
+                        "income-400000-500000": "400 000 - 500 000",
+                        "income-400000-600000": "400 000 - 600 000",
+                        "income-500000-800000": "500 000 - 800 000",
+                        "income-600000-800000": "600 000 - 800 000",
+                        "income-800000-1000000": "800 000 - 1 000 000",
+                        "income-800000+": "800 000+",
+                        "income-1000000+": "1 000 000 +",
+                        "INCOME": {
+                            "0-100000": "0 - 100 000 NOK",
+                            "0-200000": "\u003c 200 000 NOK",
+                            "100000-200000": "100 000 - 200 000 NOK",
+                            "200000-400000": "200 000 - 400 000 NOK",
+                            "400000-500000": "400 000 - 500 000 NOK",
+                            "400000-600000": "400 000 - 600 000 NOK",
+                            "500000-800000": "500 000 - 800 000 NOK",
+                            "600000-800000": "600 000 - 800 000 NOK",
+                            "800000-1000000": "800 000 - 1 000 000 NOK",
+                            "800000+": "Mer enn 800 000 NOK",
+                            "1000000+": "Mer enn 1 000 000 NOK",
+                            "name": "Inntekt"
+                        },
+                        "pois": {
+                            "higheducation": "H�yere utdanning"
+                        }
+                    },
+                    "environment": {
+                        "housingAge": "Boligalder",
+                        "housingAge-0-10": "0-10 �r",
+                        "housingAge-10-30": "10-30 �r",
+                        "housingAge-30-50": "30-50 �r",
+                        "housingAge-50+": "Over 50 �r",
+                        "housingArea": "Boligst�rrelse",
+                        "housingArea-0-60": "0-60 m�",
+                        "housingArea-120-200": "120-200 m�",
+                        "housingArea-200+": "Over 200 m�",
+                        "housingArea-60-120": "60-120 m�",
+                        "housingPrices": "Boligpriser",
+                        "housingPrices-0-2000000": "0-2�000�000",
+                        "housingPrices-2000000-3000000": "2�000�000-3�000�000",
+                        "housingPrices-3000000-4000000": "3�000�000-4�000�000",
+                        "housingPrices-4000000-5000000": "4�000�000-5�000�000",
+                        "housingPrices-5000000-6000000": "5�000�000-6�000�000",
+                        "housingPrices-6000000+": "6�000�000+",
+                        "HOUSING_AGE": {
+                            "0-10": "0-10 �r",
+                            "0-10WithValue": "{{ value }}% 0-10 �r",
+                            "10-30": "10-30 �r",
+                            "10-30WithValue": "{{ value }}% 10-30 �r",
+                            "30-50": "30-50 �r",
+                            "30-50WithValue": "{{ value }}% 30-50 �r",
+                            "50+": "Over 50 �r",
+                            "50+WithValue": "{{ value }}% Over 50 �r",
+                            "name": "Boligalder"
+                        },
+                        "HOUSING_AREA": {
+                            "0-60": "0-60 m�",
+                            "0-60WithValue": "{{ value }}% 0-60 m�",
+                            "120-200": "120-200 m�",
+                            "120-200WithValue": "{{ value }}% 120-200 m�",
+                            "200+": "Over 200 m�",
+                            "200+WithValue": "{{ value }}% Over 200 m�",
+                            "60-120": "60-120 m�",
+                            "60-120WithValue": "{{ value }}% 60-120 m�",
+                            "name": "Boligst�rrelse"
+                        },
+                        "HOUSING_OWNERSHIP": {
+                            "name": "Huseier",
+                            "owns": "eier",
+                            "rents": "leier"
+                        },
+                        "HOUSING_PRICES": {
+                            "0-2000000": "0-2�000�000",
+                            "2000000-3000000": "2�000�000-3�000�000",
+                            "3000000-4000000": "3�000�000-4�000�000",
+                            "4000000-5000000": "4�000�000-5�000�000",
+                            "5000000-6000000": "5�000�000-6�000�000",
+                            "6000000+": "Over 6�000�000",
+                            "name": "Boligpriser"
+                        },
+                        "HOUSING_STOCK": {
+                            "annet": "annet",
+                            "blokk": "blokk",
+                            "enebolig": "enebolig",
+                            "name": "Boligtype",
+                            "rekkehus": "rekkehus"
+                        },
+                        "SUNCURVES": {
+                            "name": "Solforhold"
+                        },
+                        "SUNCURVES_TEXT": "Illustrasjonen viser solens bane p� tre ulike �rstider hvor eiendommen ligger. Illustrasjonen viser hvordan terrenget i horisonten dekker for solen, men den tar ikke h�yde for vegetasjon, bygninger eller n�rliggende terreng.",
+                        "title": "ENVIRONMENT.title"
+                    },
+                    "shopping": {
+                        "pois": {
+                            "groceries": "Dagligvarer og handel",
+                            "services": "Varer",
+                            "sport": "Idrettsanlegg og treningssenter",
+                            "fitnesscentre": "Treningssenter"
+                        }
+                    },
+                    "leisure": {
+                        "pois": {
+                            "sport": "Idrettsanlegg og treningssenter"
+                        }
+                    },
+                    "travel-time": {
+                        "address": {
+                            "description": {
+                                "business": "Utforsk reisetid hit, fra flere ulike destinasjoner.",
+                                "leisure": "Beregn reisetid med offentlig transport og bil til hytta.",
+                                "normal": "Lurer du p� hvor langt det er fra {{address}} til jobb, trening eller skole?"
+                            },
+                            "heading": {
+                                "business": "Reisetider",
+                                "leisure": "Reisetider",
+                                "normal": "Reisetider"
+                            },
+                            "infoText": {
+                                "business": "Legg inn opp til 5 favorittsteder under, s� beregner vi reisetid for kollektiv, bil, sykkel og til fots",
+                                "leisure": "Legg inn opp til 5 favorittsteder under, s� beregner vi reisetid for kollektiv, bil, sykkel og til fots",
+                                "normal": "Legg inn opp til 5 favorittsteder under, s� beregner vi reisetid for kollektiv, bil, sykkel og til fots"
+                            }
+                        },
+                        "bicycle": "Sykkel",
+                        "car": "Bil",
+                        "card": {
+                            "title": {
+                                "business": "Reisetid til {{address}}",
+                                "leisure": "Reisetid fra {{address}}",
+                                "normal": "Reisetid til {{address}}"
+                            }
+                        },
+                        "change-address": "Endre adresse",
+                        "info": {
+                            "selectedText": "Reisetid fra {{address}} til ",
+                            "selectedTextNoAddress": {
+                                "business": "Reisetid fra {{address}}",
+                                "leisure": "Reisetid fra {{address}} til hytten",
+                                "normal": "Reisetid fra {{address}}"
+                            },
+                            "selectedTitle": "Reisetider"
+                        },
+                        "link-text": {
+                            "business": "Finn reisetider",
+                            "leisure": "Finn reisetider",
+                            "normal": "Se reisetid"
+                        },
+                        "not-found": "Ingen relevante reisealternativer funnet",
+                        "page": {
+                            "description": "Finn reisetider for kollektiv, bil, sykkel og gange fra boligen du vurderer",
+                            "heading": "Hvor langt er det?",
+                            "title": "Reisetid",
+                            "mapSectionHeadline": "Hvor ligger dine favorittsteder i forhold til {{address}}?",
+                            "mapOverlay": "Legg til ett eller flere steder for � se hvor langt det er dit fra fra {{address}}."
+                        },
+                        "public-transport": "Kollektivt",
+                        "walking": "Gange",
+                        "widget": {
+                            "business": "Hvordan reise til n�ringseiendommen?",
+                            "leisure": "Hvordan kommer jeg meg til hytten?",
+                            "normal": "Hvordan reise til jobb eller skole fra {{address}}?",
+                            "normalNoAddress": "Hvordan reise til jobb eller skole fra boligen?"
+                        },
+                        "submitButtonText": "Lagre adresse",
+                        "addressExists": "Adressen er allerede lagret",
+                        "maxLimitMessage": "\u003cp\u003eDu har n� lagt til maks antall steder (5).\u003c/p\u003e\u003cp\u003eVil du legge til et nytt sted? Du kan fjerne et av stedene dine og legge til et nytt.\u003c/p\u003e",
+                        "deleteAddress": {
+                            "aria": "Slett adressen"
+                        },
+                        "editAddress": {
+                            "aria": "Rediger adressenavn"
+                        },
+                        "deleteAddressWarning": "\u003cp\u003e\u003cb\u003eEr du sikker p� at du vil slette adressen {{address}}?\u003c/b\u003e\u003c/p\u003e\u003cp\u003eDu kan ikke angre valget\u003c/p\u003e",
+                        "confirmAddressDelete": {
+                            "aria": "Slett",
+                            "buttonText": "Ja, slett addressen"
+                        },
+                        "cancelDeleteAddress": {
+                            "aria": "Avbryt",
+                            "buttonText": "Nei, avbryt"
+                        },
+                        "closeFullScreenMap": {
+                            "aria": "Lukk kartet"
+                        },
+                        "openFullScreenMap": {
+                            "aria": "�pne kartet"
+                        },
+                        "mapMarker": {
+                            "aria": "Kartmark�r for {{address}}"
+                        },
+                        "firstTravelLegLabel": "Fra {{address}}",
+                        "travelRoute": {
+                            "direction": {
+                                "bus": "Buss nr. {{lineNumber}} i {{duration}} (til {{toPlace}})",
+                                "trolleybus": "Buss nr. {{lineNumber}} i {{duration}} (til {{toPlace}})",
+                                "tram": "Trikk nr. {{lineNumber}} i {{duration}} (til {{toPlace}})",
+                                "metro": "T-bane nr. {{lineNumber}} i {{duration}} (til {{toPlace}})",
+                                "rail": "Tog til {{toPlace}}, tar {{duration}}",
+                                "water": "B�t til {{toPlace}}, tar {{duration}}",
+                                "foot": "G� {{duration}}",
+                                "footWaiting": "G� {{duration}}, vent ca {{waiting}}",
+                                "wait": "Vent ca {{waiting}}",
+                                "air": "Flyet til {{toPlace}} bruker {{duration}}",
+                                "airWaiting": "Flyet til {{toPlace}} bruker {{duration}}. Beregn minst {{waiting}} p� � forlate flyplassen."
+                            }
+                        },
+                        "travelOptions": {
+                            "fastest": "Raskest",
+                            "direct": "Direkte",
+                            "shorterWalk": "Kort gange",
+                            "lessTransfers": "F� bytter",
+                            "alternativeMode": "Alternativ"
+                        },
+                        "publicRouteFetchFailed": "Kunne ikke finne kollektive reisetider",
+                        "fastestPublic": "Raskeste kollektiv",
+                        "fastestNonPublic": {
+                            "car": "Kj�retid",
+                            "bicycle": "Sykkeltid",
+                            "walk": "Korteste gange"
+                        }
+                    },
+                    "schibsted": {
+                        "psi": {
+                            "headline": "Schibsted er ansvarlig for h�ndtering av dine data",
+                            "body": "\u003cp\u003eNabolag.no er en del av Schibsted, som er ansvarlig for dine data. Vi bruker dine personopplysninger fra nabolag.no og andre Schibsted-tjenester (f.eks. Finn.no) til �:\u003c/p\u003e\u003cul\u003e\u003cli\u003epersonalisere Schibsteds tjenester, produkter og kommunikasjon p� tvers av merkevarer og nettsteder\u003c/li\u003e\u003cli\u003eforbedre og utvikle tjenestene som tilbys av Schibsted, samt generere innsikt i bruken av v�re tjenester\u003c/li\u003e\u003cli\u003evise, tilpasse og m�le annonser p� Schibsteds nettsteder\u003c/li\u003e\u003cli\u003es�rge for at v�re tjenester er sikre, herunder beskytte mot svindelaktivitet og krenkende oppf�rsel\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFullstendig informasjon om behandling av personopplysninger finner du i Schibsteds \u003ca href=\"https://info.privacy.schibsted.com/no/schibsted-norge-personvernerklaering/\" target=\"_blank\" rel=\"noopener noreferrer\"\u003epersonvernerkl�ring\u003c/a\u003e, der du ogs� finner informasjon om personvernvalg og behandling av personopplysninger av tredjeparter i tilknytning til annonser og annons�rinnhold.\u003c/p\u003e"
+                        },
+                        "privacy": {
+                            "mobile": "\u003ca href=\"https://info.privacy.schibsted.com/no/schibsted-norge-personvernerklaering/\" target=\"_blank\" rel=\"noopener noreferrer\"\u003eSchibsted er ansvarlig for dine data\u003c/a\u003e",
+                            "desktop": "Nabolag.no er en del av Schibsted. Schibsted er ansvarlig for dine data. \u003ca href=\"https://info.privacy.schibsted.com/no/schibsted-norge-personvernerklaering/\" target=\"_blank\" rel=\"noopener noreferrer\"\u003eLes mer\u003c/a\u003e"
+                        },
+                        "loginEntry": {
+                            "headline": "F� mer ut av Nabolag.no",
+                            "tagline": "F� varsler, legg til favoritter eller lagre dine s�k",
+                            "loginButton": {
+                                "buttonText": "Logg inn med",
+                                "aria": "Logg inn med Schibsted"
+                            }
+                        }
+                    }
+                }
+            },
+            "initialLanguage": "no",
+            "i18nServerInstance": null,
+            "pageProps": {
+                "namespacesRequired": [
+                    "activities",
+                    "common",
+                    "categories",
+                    "error",
+                    "map",
+                    "businesses",
+                    "charts",
+                    "family",
+                    "transport",
+                    "people",
+                    "environment",
+                    "shopping",
+                    "leisure",
+                    "travel-time",
+                    "schibsted"
+                ],
+                "query": {
+                    "id": "284502441"
+                },
+                "path": "/284502441"
+            }
+        }
+    },
+    "page": "/[id]",
+    "query": {
+        "id": "284502441"
+    },
+    "buildId": "eMTi0YT9uMNZiol33LX9h",
+    "assetPrefix": "https://profil.nabolag.no",
+    "isFallback": false,
+    "customServer": true,
+    "gip": true,
+    "appGip": true
+}
