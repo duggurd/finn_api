@@ -9,8 +9,8 @@ Interface to API used by "finn.no".
 # TODO
 - Build API interface for
     - CDN
-    - Higher level abstraction for API interface
-    - Automatic swiping of pages
+- Higher level abstraction for API interface
+- Automatic swiping of pages
 - Build complete sitemap
     - onsite and offsite mapping of hyperlinks
 
