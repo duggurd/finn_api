@@ -1,0 +1,8 @@
+.venv
+.vscode
+finn_html
+__pycache__
+testing.ipynb
+*.egg-info
+dist
+build

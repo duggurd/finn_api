@@ -1,0 +1,48 @@
+{
+    "realestate": [
+            "SEARCH_ID_REALESTATE_HOMES",
+            "SEARCH_ID_REALESTATE_NEWBUILDINGS",
+            "SEARCH_ID_REALESTATE_PLOTS",
+            "SEARCH_ID_REALESTATE_LEISURE_SALE",
+            "SEARCH_ID_REALESTATE_LEISURE_PLOTS",
+            "SEARCH_ID_REALESTATE_LETTINGS",
+            "SEARCH_ID_COMMERCIAL_SALE",
+            "SEARCH_ID_COMMERCIAL_RENT",
+            "SEARCH_ID_COMMERCIAL_PLOTS",
+            "SEARCH_ID_COMPANY_SALE"
+    ],
+    "mc": [
+            "SEARCH_ID_MC_USED",
+            "SEARCH_ID_MC_SCOOTER",
+            "SEARCH_ID_MC_SNOWMOBILE",
+            "SEARCH_ID_MC_ATV"
+    ],
+    "car": [
+            "SEARCH_ID_CAR_USED",
+            "SEARCH_ID_CAR_PARALLEL_IMPORT",
+            "SEARCH_ID_CAR_MOBILE_HOME",
+            "SEARCH_ID_CAR_CARAVAN",
+            "SEARCH_ID_CAR_VAN"
+    ],
+    "b2b": [
+            "SEARCH_ID_CAR_TRUCK",
+            "SEARCH_ID_CAR_BUS",
+            "SEARCH_ID_CAR_AGRI",
+            "SEARCH_ID_AGRICULTURE_TRACTOR",
+            "SEARCH_ID_AGRICULTURE_THRESHING",
+            "SEARCH_ID_AGRICULTURE_TOOL"
+    ],
+    "boat": [
+            "SEARCH_ID_BOAT_USED",
+            "SEARCH_ID_BOAT_USED_WANTED",
+            "SEARCH_ID_BOAT_RENT",
+            "SEARCH_ID_BOAT_MOTOR",
+            "SEARCH_ID_BOAT_MOTOR_PARTS",
+            "SEARCH_ID_BOAT_PARTS_MOTOR_WANTED",
+            "SEARCH_ID_BOAT_DOCK",
+            "SEARCH_ID_BOAT_DOCK_WANTED"
+    ],
+    "bap": [
+            "SEARCH_ID_BAP_COMMON"
+    ]
+}
