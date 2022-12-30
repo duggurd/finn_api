@@ -45,6 +45,6 @@ class FinnAPI:
         
         if filters:
             for name, value in filters.items():
-                base = "".join((base, f"&{name}={value}"))
-        
+                base = f"{base}&{name}={value}"
+
         return base
