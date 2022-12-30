@@ -10,7 +10,6 @@ Don't do anything stupid :)
 
 # TODO
 - Build API interface for
-    - CDN
     - Higher level abstraction for API interface
     - Automatic swiping of pages
 - Build complete sitemap
