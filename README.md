@@ -1,11 +1,9 @@
 # finn_api
 Interface to API used by "finn.no". 
 
-DISCLAIMER: This is only an experiment in reverse engineering and using this code could breach [finn.no's terms and conditions](https://www.finn.no/api/terms) and be against their policies for use of robots, scrapers and spiders, described [here in chapter 7](https://payment.schibsted.no/terms?client_id=5087dc1b421c7a0b79000000&locale=nb_NO). I take no responsibility for any consequences that arise from misuse of the code. The code is provided purely for educational purposes.
+> **DISCLAIMER:** This is only an experiment in reverse engineering and using this code could breach [finn.no's terms and conditions](https://www.finn.no/api/terms) and be against their policies for use of robots, scrapers and spiders, described [here in chapter 7](https://payment.schibsted.no/terms?client_id=5087dc1b421c7a0b79000000&locale=nb_NO). I take no responsibility for any consequences that arise from misuse of the code. The code is provided purely for educational purposes. Be responsible :)
 
-WARNING: As this is an experiment, there are no guarantees that the interface stays functional, furthermore i won't actively keep the repository up to date in case of something breaking. Use at own risk.
-
-Don't do anything stupid :)
+> **WARNING:** As this is an experiment, there are no guarantees that the interface stays functional, furthermore i won't actively keep the repository up to date in case of something breaking. Use at own risk.
 
 
 # TODO
